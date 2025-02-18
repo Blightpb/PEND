@@ -1,0 +1,45 @@
+1. Declarando Variáveis:
+
+	let nome = "Rafaela";
+	let idade = 17;
+	let cidade = "Sorocaba";
+
+	console.log("nome: ", nome); 
+	console.log("idade: ", idade);
+	console.log("cidade: ", cidade);
+
+2. Nomeação de Variáveis:
+	
+	var 2nome; // Não pode usar números em variáveis;
+	var _idade; // Não pode usar _ no nome de uma variável;
+	cidade-natal; // Não pode usar - no nome de uma variável;
+	var $preco; 
+	var let; // VAR e LET não podem ser usadas ao mesmo tempo. 
+
+3. Declarando sem Inicializar:
+
+	let altura;
+	console.log(altura); //aparece a mensagem "undefined".  
+
+4. Inicializando Variáveis:
+
+	let altura = 1.55;
+	console.log(altura); // exibe o "1.55".
+
+5. Strict Mode:
+
+	"use strict"
+	minhaVariavel = 10;
+	console.log(minhaVariavel); //ocorre um erro, porque só é 	indicado em códigos mais antigos.
+
+6. Alterando Valores de Variáveis:
+
+	
+
+7. Trabalhando com Constantes:
+
+
+8. Diferença entre var, let e const:
+	
+
+	                                      

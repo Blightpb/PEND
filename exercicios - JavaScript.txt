@@ -34,8 +34,12 @@
 
 6. Alterando Valores de Variáveis:
 
+	var contador = 0;
+	while (contador < 3) {
+    		console.log("Contador: " + contador);
+    	contador++;
+	}
 	
-
 7. Trabalhando com Constantes:
 
 

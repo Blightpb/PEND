@@ -30,7 +30,7 @@
 
 	"use strict"
 	minhaVariavel = 10;
-	console.log(minhaVariavel); //ocorre um erro, porque só é 	indicado em códigos mais antigos.
+	console.log(minhaVariavel); //ocorre um erro, porque só é indicado em códigos mais 		antigos.
 
 6. Alterando Valores de Variáveis:
 
@@ -41,9 +41,49 @@
 	}
 	
 7. Trabalhando com Constantes:
-
+	const PI = 3.14; //da erro porque não tem como quebrar uma constante
 
 8. Diferença entre var, let e const:
+
+	var: a variável VAR permiti a redeclaração e reatribuição.
+	let: a variável LET permite reatribuição mas não permite da redeclaração.
+	const: a variável CONST não permite nenhuma das duas.
+
+9. Escopo de Variáveis:
+
+	function testeEscopo() {
+    		var a = 10;
+    		if (true) {
+        		let b = 20;
+        		console.log(a); // 10
+        		console.log(b); // 20
+   	}
+    	console.log(a); // 10
+    	console.log(b); // na segunda o B não foi definido
+	}
+	testeEscopo();
+
+10. Variáveis Globais e Locais:
+
+	//ocorre um erro porque dentro da função você pode acessar a variável global e a 		local, e fora só é possível acessar a global.
+
+11. Shadowing com VAR e LET:
+
+	// o carlos aparece primeiro porque está dentro de uma função e o programa busca 
+	iniciar uma função primeiro, por isso a ana aparece em seguida já que ela está fora
+	da função
+
+12. Shadowing no Escopo de Bloco:
+
+		var idade = 25;
+
+	if (true) {
+    		var idade = 30;
+    		console.log("Dentro do bloco:", idade);
+	}
+
+	console.log("Fora do bloco:", idade); // a idade foi declarada antes logo não é 		identificada.
+	
 	
 
 	                                      

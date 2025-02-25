@@ -1,0 +1,72 @@
+Exercícios: Manipulação de Strings em JavaScript (M2.1)
+
+1. Verificando o tamanho da string
+	
+	let frase = "JavaScript é incrível!"; 
+	
+	console.log(frase.length);
+
+2. Obtendo um caractere específico
+
+	let palavra = "Programação";
+	
+	console.log(palavra.charAt(0));
+	console.log(palavra.charAt(10);
+
+3. Extraindo parte de uma string
+
+	let mensagem = "Aprendendo JavaScript";
+
+	console.log(mensagem.slice(11, 21));
+
+4. Dividindo uma string em partes
+
+	let linguagens = "JavaScript,Python,Ruby,C++";
+	
+	console.log(linguagens.split(","))
+
+5. Limitando o número de divisões
+
+	let texto = "o céu é azul e lindo";
+	
+	console.log(texto.split(" ",3));
+
+6. Encontrando a posição de um caractere
+
+	let fruta = "Abacaxi";
+	
+	console.log(fruta.charAt(3));
+
+7. Extraindo parte de uma string sem especificar o fim
+
+	let frase = "Estudando JavaScript todos os dias";
+
+	console.log(frase.slice(10));
+
+8. Dividindo uma string por espaços
+
+	let sentenca = "Aprender a programar é divertido";
+
+	console.log(sentenca.split(" "));
+
+9. Convertendo uma string em array e acessando um elemento específico
+
+	
+	 let animais = "Cachorro, Gato, Elefante, Leão";
+
+	console.log(animais.split(","));
+
+10. Contando quantas palavras há em uma frase
+	
+	let texto = "Eu amo desenvolver aplicações web";
+
+	console.log(texto.split(" "));
+	console.log(texto.length);
+
+
+	
+
+	
+
+	
+	

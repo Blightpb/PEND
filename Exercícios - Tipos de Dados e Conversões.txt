@@ -1,0 +1,7 @@
+Exercícios: Tipos de Dados e Conversões
+
+2.1.1 Data types and type conversions
+
+1. Declare três variáveis: uma string, um número e um booleano. Exiba seus valores e tipos no console.
+	
+

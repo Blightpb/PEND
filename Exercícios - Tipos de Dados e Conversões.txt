@@ -2,6 +2,223 @@ Exercícios: Tipos de Dados e Conversões
 
 2.1.1 Data types and type conversions
 
-1. Declare três variáveis: uma string, um número e um booleano. Exiba seus valores e tipos no console.
+questão 1.
+
+	let string = "Rafaela";
+	let numero = 16;
+	let booleano = true;
+	
+	console.log(string, "-", typeof string);
+	console.log(numero, "-", typeof numero);
+	console.log( booleano, "-", typeof booleano);
+questão 2.
+
+	let numero = 10;
+	let numeroString = numero.toString();
+	console.log(numeroString, "- ", typeof numeroString);
+
+	//10 - String
+
+questão 3.
+
+	let numero = "10";
+	let string = parseInt(numero);
+	console.log(string, "-", typeof string);
+
+	//10 - number 
+
+questão 4.
+
+	let nulo = null;
+	let indefinido;
+	console.log(nulo, "-", typeof nulo);
+	console.log(indefinido, "-", typeof indefinido);
+		
+questão 5.
+
+	let objeto = {
+	  nome: "Rafaela",
+	  idade: 16,
+	  cidade: "Sorocaba"
+	};
+	let array = ["pipipi", "popopo", "pspspspsp"];
+	
+	console.log(typeof objeto);
+	console.log(typeof array);
+
+	//os dois aparecem "object"
+
+questão 6.
+
+	let bigInt = 123n;
+	console.log(bigInt, "-", typeof bigInt);
+
+questão 7.
+
+	let tiposPrimitivos = ["string", "number", "boolean", "null", "undefined", "symbol", "bigint"];
+	console.log("Tipos primitivos em JavaScript:", tiposPrimitivos);
+
+questão 8.
+
+	 let string = "Rafaela";           
+	let numero = 16;                        
+	let booleano = true;                    
+	let nulo = null;                        
+	let indefinido;                          
+    	let meuSymbol = Symbol("exemplo");        
+
+	console.log("string:", string);
+	console.log("número:", numero);
+	console.log("booleano:", booleano);
+	console.log("null:", nulo);
+	console.log("undefined:", indefinido);
+	console.log("Valor do symbol:");
+
+questão 9.
+
+	let simbolo = Symbol("teste");
+
+	    if (typeof simbolo === "symbol") {
+	      console.log("A variável tem um valor do tipo Symbol");
+	    } else {
+	      console.log("A variável não tem um valor do tipo Symbol");
+	    }
+
+questão 10.
+
+	let booleano = true;
+	let numero = Number(booleano);
+	console.log(numero, "-", typeof numero);
+
+questão 11.
+
+	let booleano = true;
+	let numero = Number(booleano);
+	console.log(numero, "-", typeof numero);
+
+questão 12.
+
+	let indefinido;
+	let numero = Number(indefinido);
+	console.log(numero, "-", typeof numero);
+
+questão 13.
+
+	let numero = 10;
+	let resultado = "O número é " + numero;
+	
+	console.log("Resultado:", resultado);
+	console.log("Tipo:", typeof resultado);
+
+questão 14.
+
+	let string = "10";
+	let numero = string - 0;
+	
+	console.log(numero, "-", typeof numero);
+
+questão 15.
+
+	let booleanoVerdadeiro = true;
+	let booleanoFalso = false;
+	let valorNulo = null;
+	let indefinido;
+	let objetoVazio = {};
+	
+	let verdadeiro = String(booleanoVerdadeiro);
+	let falso = String(booleanoFalso);
+	let nulo = String(valorNulo);
+	let stringindefinido = String(indefinido);
+	let vazio = String(objetoVazio);
+	
+	console.log(verdadeiro, "-", typeof verdadeiro);
+	console.log(falso, "-", typeof falso);
+	console.log(nulo, "-", typeof nulo);
+	console.log(stringindefinido, "-", typeof stringindefinido);
+	console.log(vazio, "-", typeof vazio);
+
+questão 16.
+
+	let string1 = "123";
+	let string2 = "123.45";
+	let string3 = "";
+	let string4 = "abc";
+	let string5 = "0";
+	
+	let numero1 = Number(string1);
+	let numero2 = Number(string2);
+	let numero3 = Number(string3);
+	let numero4 = Number(string4);
+	let numero5 = Number(string5);
+	
+	console.log(numero1, "-", typeof numero1);
+	console.log(numero2, "-", typeof numero2);
+	console.log(numero3, "-", typeof numero3);
+	console.log(numero4, "-", typeof numero4);
+	console.log(numero5, "-", typeof numero5);
+
+questão 17.
+
+	let stringInteira = "123";
+	let stringDecimal = "123.45";
+	let stringComTexto = "123abc";
+	
+	let numeroInteiro1 = parseInt(stringInteira);
+	let numeroInteiro2 = parseInt(stringDecimal);
+	let numeroInteiro3 = parseInt(stringComTexto);
+	
+	let numeroFloat1 = parseFloat(stringInteira);
+	let numeroFloat2 = parseFloat(stringDecimal);
+	let numeroFloat3 = parseFloat(stringComTexto);
+	
+	console.log("Usando parseInt:");
+	console.log(numeroInteiro1, "-", typeof numeroInteiro1);
+	console.log(numeroInteiro2, "-", typeof numeroInteiro2);
+	console.log(numeroInteiro3, "-", typeof numeroInteiro3);
+	
+	console.log("Usando parseFloat:");
+	console.log(numeroFloat1, "-", typeof numeroFloat1);
+	console.log(numeroFloat2, "-", typeof numeroFloat2);
+	console.log(numeroFloat3, "-", typeof numeroFloat3);
+
+questão 18.
+
+	let valor1 = 0;
+	let valor2 = 1;
+	let valor3 = "";
+	let valor4 = "Hello";
+	let valor5 = null;
+	let valor6;
+	let valor7 = {};
+	let valor8 = [];
+	
+	
+	let booleano1 = Boolean(valor1);
+	let booleano2 = Boolean(valor2);
+	let booleano3 = Boolean(valor3);
+	let booleano4 = Boolean(valor4);
+	let booleano5 = Boolean(valor5);
+	let booleano6 = Boolean(valor6);
+	let booleano7 = Boolean(valor7);
+	let booleano8 = Boolean(valor8);
+	
+	
+	console.log("0 como booleano:", booleano1);
+	console.log("1 como booleano:", booleano2);
+	console.log(" \"\" como booleano:", booleano3);
+	console.log("\"Hello\" como booleano:", booleano4);
+	console.log("null como booleano:", booleano5);
+	console.log("undefined como booleano:", booleano6);
+	console.log("{} como booleano:", booleano7);
+	console.log("[] como booleano:", booleano8);
+
+questão 19.
+
+	let numero = 1000;
+	let numeroBigInt = BigInt(numero);
+	console.log(numeroBigInt, "-", typeof numeroBigInt);
+	
+	
+	
 	
 

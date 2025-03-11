@@ -1,3 +1,5 @@
 let letras = ["a", "b", "c", "d"];
-letras.reverse();
-console.log(letras);
+
+console.log(letras);//exibe as letras
+letras.reverse(); //inverte a ordem
+console.log(letras); //exibe as letras invertidas

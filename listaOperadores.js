@@ -97,9 +97,9 @@
 
     console.log();
 
-    /*aparece "false" porque "10 + 5 * 2" é igual a 20, e "&&" 
-    serve para comparar se a operação é verdadeira, e no 
-    caso 20 não é maior do que 20 porque eles são iguais, logo é "false" */
+    /* aparece "false" porque "10 + 5 * 2" é igual a 20, e "&&" 
+    serve para comparar se a operação é verdadeira (tornou verdadeiro por conta do ! na frente do false), 
+    e no caso 20 NÂO é maior do que 20 porque eles são iguais, logo é "false" */
 
 }
 

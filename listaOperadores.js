@@ -78,7 +78,7 @@
 }
 
 //exercício 7
-/*{
+{
     console.log("exercício 7:");
     console.log(0 || "Hello");
     console.log("" && "World");
@@ -86,7 +86,7 @@
     console.log(undefined ?? 42);
 
     console.log();
-}*/
+}
 
 //exercício 8
 {
